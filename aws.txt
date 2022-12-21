@@ -116,3 +116,18 @@ sudo certbot --nginx
 
 😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃
 Here your site is deployed with ssl and www non www redirection.
+
+
+-----------------------------------------------------------------
+
+#### FOR UPDATE THE APPLICATION ####
+
+#go to instance and run
+sudo su -
+
+#after that you have go inside your repo by ls command
+
+#in your repo run
+git pull origin main
+
+😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃
