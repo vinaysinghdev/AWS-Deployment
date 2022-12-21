@@ -51,10 +51,10 @@ pm2 start [your app.js]
 # Other pm2 commands
 pm2 show [your app.js]
 pm2 status
-pm2 restart [your app.js]
 pm2 stop [your app.js]
 pm2 logs (Show log stream)
 pm2 flush (Clear logs)
+pm2 restart [your app.js]
 
 # To make sure app starts when reboot
 pm2 startup ubuntu
