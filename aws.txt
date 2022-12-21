@@ -45,7 +45,7 @@ stop app using [crtl+C]
 
 ##### installation of pm2 for always running server #####
 
-sudo npm i pm2 -g
+npm install pm2 -g
 pm2 start [your app.js]
 
 # Other pm2 commands
@@ -64,9 +64,9 @@ pm2 startup ubuntu
 
 sudo ufw enable
 sudo ufw status
-sudo ufw allow ssh (Port 22)
-sudo ufw allow http (Port 80)
-sudo ufw allow https (Port 443)
+sudo ufw allow ssh <--(Port 22)-->
+sudo ufw allow http <--(Port 80)-->
+sudo ufw allow https <--(Port 443)-->
 
 ##### Install NGINX and configure #####
 
@@ -97,7 +97,7 @@ and update www subdamin value to your domain like value=[yourdomain.com]
 
 
 #####  Install Certbot in Ubuntu with snapd #####
-Install snapd:
+##Install snapd:
 [sudo apt install snapd]
 
 Ensure you have the latest snapd version installed:
