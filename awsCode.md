@@ -15,13 +15,13 @@ type = http
 port = 80
 source = anywhere
 ```
-##### Add Rule 1.
+##### Add Rule 2.
 ```
 type = https  
 port = 443
 source = anywhere
 ```
-##### Add Rule 1.
+##### Add Rule 3.
 ```
 type = Custom TCP  
 port = [Your Port]
